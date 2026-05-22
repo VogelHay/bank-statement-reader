@@ -1,5 +1,5 @@
 # bank-statement-reader
-This program will read bank statements PDFs using *determined pdf compiler*, storing the raw output into a tab within a raw-statements.csv.
+This program will read bank statements PDFs using *determined pdf compiler* (probably pdfplumber??), storing the raw output into a tab within a raw-statements.csv.
 It will then categorize the data depending on the type of purchase made into sorted-statements.csv, populating a list of vendors and storing them within a vendor.txt file.
 Finally, sorted-statements.csv will be exported into a Google sheet and used to observe spending habits, helping the user develop more transparency on their spending practices.
 
